@@ -1,0 +1,28 @@
+.header {
+  padding: 0;
+  max-width: 928px;
+  margin: auto;
+  height: 52px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  color: #ffff;
+}
+
+@media all and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .header {
+    max-width: 288px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+  }
+}
