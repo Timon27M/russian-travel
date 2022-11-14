@@ -1,8 +1,8 @@
 .lead__image {
   background-image: url(../../../image/lead-image.jpg);
   width: 100%;
-  height: 580px;
   margin-top: 56px;
+  background-size: cover;
 }
 
 @media screen and (max-width: 320px) {
