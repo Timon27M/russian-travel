@@ -240,3 +240,141 @@
     margin: 92px 16px 0;
   }
 } */
+
+/* .places {
+  margin-top: 92px;
+  max-width: 928px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .places {
+    margin: 64px auto 0;
+  }
+} */
+
+/* .place {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: stretch;
+  gap: 48px 32px;
+}
+
+.place:not(:first-child) {
+  margin-top: 80px;
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    gap: 48px 40px;
+    max-width: 984px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+  }
+} */
+
+/* .place__title {
+  font-family: "Inter";
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+} */
+
+/* .place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 360px) {
+  .place__website {
+    margin: 32px 16px 0;
+  }
+} */
+
+/* .place__url-heading {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+} */
+
+/* .place__link {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffff;
+} */
+
+/* .place__image {
+  max-width: 460px;
+  max-height: 460px;
+} */
+
+/* .place__paragraph {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0;
+}
+
+.place__paragraph:not(:first-child) {
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 360px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    min-width: 484px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+} */
