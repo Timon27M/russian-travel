@@ -1,0 +1,41 @@
+.cover {
+    background-image: url(../../image/cover__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 640px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 640px;
+    margin-top: 92px;
+  }
+  
+  .cover:hover {
+    opacity: 0.8;
+    cursor: url(../image/Imported\ Layers\ Copy\ 4.svg);
+  }
+  
+  @media screen and (min-width: 1025px) {
+    .cover {
+      max-width: 1184px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover {
+      max-height: 480px;
+      margin-top: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .cover {
+      max-height: 200px;
+      margin-top: 66px;
+    }
+  }
