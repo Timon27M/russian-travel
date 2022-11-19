@@ -1,28 +1,36 @@
 .cover {
-    background-image: url(../../image/cover__background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 1184px;
-    height: 640px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 640px;
-    margin: 92px auto 0;
+  background-image: url(../../image/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1184px;
+  min-height: 640px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    background-image: url(../../image/cover__background1280.jpg);
+    min-height: 740px;
   }
-  
-  
-  @media screen and (max-width: 768px) {
-    .cover {
-      max-height: 480px;
-      margin-top: 90px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+    margin-top: 90px;
+    background-image: url(../../image/cover__background768.jpg);
   }
-  
-  @media screen and (max-width: 510px) {
-    .cover {
-      max-height: 200px;
-      margin-top: 66px;
-    }
+}
+
+@media screen and (max-width: 510px) {
+  .cover {
+    background-image: url(../../image/cover__background320.jpg);
+    background-size: contain;
+    min-height: 200px;
+    margin-top: 66px;
   }
+}

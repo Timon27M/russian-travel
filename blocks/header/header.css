@@ -3,7 +3,7 @@
   max-width: 928px;
   margin-left: auto;
   margin-right: auto;
-  height: 52px;
+  min-height: 52px;
   display: flex;
   justify-content: space-between;
   color: #ffff;
@@ -31,8 +31,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .header {
+    min-height: 42px;
     max-width: 288px;
     margin-top: 16px;
     margin-left: 16px;

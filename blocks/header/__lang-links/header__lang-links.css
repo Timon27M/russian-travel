@@ -1,0 +1,19 @@
+.header__lang-links {
+  height: min-content;
+  padding: 0;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-links {
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
+}

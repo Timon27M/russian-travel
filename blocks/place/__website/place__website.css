@@ -1,12 +1,12 @@
 .place__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 360px) {
+  .place__website {
+    margin-left: 16px;
+    margin-right: 16px;
   }
-  
-  @media screen and (max-width: 360px) {
-    .place__website {
-      margin-left: 16px;
-      margin-right: 16px;
-    }
-  }
+}

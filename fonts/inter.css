@@ -7,7 +7,6 @@
     url("./Font-inter/Inter-Web/Inter-Regular.woff") format("woff");
 }
 
-
 @font-face {
   font-family: "Inter";
   font-style: normal;
@@ -17,3 +16,11 @@
     url("./Font-inter/Inter-Web/Inter-Black.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Font-inter/Inter-Web/Inter-Bold.woff2") format("woff2"),
+    url("./Font-inter/Inter-Web/Inter-Bold.woff") format("woff");
+}
