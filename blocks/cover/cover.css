@@ -11,7 +11,7 @@
   margin: 92px auto 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover {
     background-image: url(../../images/cover__background1280.jpg);
     min-height: 740px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 425px) {
   .cover {
     background-image: url(../../images/cover__background320.jpg);
     background-size: contain;
