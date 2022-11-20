@@ -1,5 +1,5 @@
 .cover {
-  background-image: url(../../image/cover__background.jpg);
+  background-image: url(../../images/cover__background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1280px) {
   .cover {
-    background-image: url(../../image/cover__background1280.jpg);
+    background-image: url(../../images/cover__background1280.jpg);
     min-height: 740px;
   }
 }
@@ -22,13 +22,13 @@
   .cover {
     min-height: 480px;
     margin-top: 90px;
-    background-image: url(../../image/cover__background768.jpg);
+    background-image: url(../../images/cover__background768.jpg);
   }
 }
 
 @media screen and (max-width: 510px) {
   .cover {
-    background-image: url(../../image/cover__background320.jpg);
+    background-image: url(../../images/cover__background320.jpg);
     background-size: contain;
     min-height: 200px;
     margin-top: 66px;
